@@ -25,49 +25,59 @@ public class Calculator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        int choice;
 
-        System.out.println("Simple Java Calculator");
+        while (true) {
 
-        System.out.print("Enter first number: ");
-        double num1 = sc.nextDouble();
+            System.out.println("\nSimple Java Calculator");
+            System.out.println("1 Addition");
+            System.out.println("2 Subtraction");
+            System.out.println("3 Multiplication");
+            System.out.println("4 Division");
+            System.out.println("5 Exit");
 
-        System.out.print("Enter second number: ");
-        double num2 = sc.nextDouble();
+            System.out.print("Enter choice: ");
+            choice = sc.nextInt();
 
-        System.out.println("Choose operation:");
-        System.out.println("1 Addition");
-        System.out.println("2 Subtraction");
-        System.out.println("3 Multiplication");
-        System.out.println("4 Division");
-
-        System.out.print("Enter choice: ");
-        int choice = sc.nextInt();
-
-        double result = 0;
-
-        switch (choice) {
-
-            case 1:
-                result = add(num1, num2);
+            if (choice == 5) {
+                System.out.println("Exiting calculator...");
                 break;
+            }
 
-            case 2:
-                result = subtract(num1, num2);
-                break;
+            System.out.print("Enter first number: ");
+            double num1 = sc.nextDouble();
 
-            case 3:
-                result = multiply(num1, num2);
-                break;
+            System.out.print("Enter second number: ");
+            double num2 = sc.nextDouble();
 
-            case 4:
-                result = divide(num1, num2);
-                break;
+            double result;
 
-            default:
-                System.out.println("Invalid choice");
-                return;
+            switch (choice) {
+
+                case 1:
+                    result = add(num1, num2);
+                    break;
+
+                case 2:
+                    result = subtract(num1, num2);
+                    break;
+
+                case 3:
+                    result = multiply(num1, num2);
+                    break;
+
+                case 4:
+                    result = divide(num1, num2);
+                    break;
+
+                default:
+                    System.out.println("Invalid choice");
+                    continue;
+            }
+
+            System.out.println("Result: " + result);
         }
 
-        System.out.println("Result: " + result);
+        sc.close();
     }
 }

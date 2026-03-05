@@ -1,12 +1,26 @@
 # Codveda Java Development Internship
-This repository contains the tasks completed during my Codveda Java Development Internship.
 
-## Task 1: Basic Calculator
-A Java console application that performs addition, subtraction, multiplication, and division and handles division by zero.
+This repository contains the tasks completed during my Java Development Internship at Codveda.
 
-## Task 2: Number Guessing Game
-A Java program where the user guesses a randomly generated number between 1 and 100.
+## Tasks Completed
 
-## Tools Used
-Java
-IntelliJ IDEA
+### 1. Basic Calculator
+A Java console application that performs basic arithmetic operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Handles division by zero errors
+
+### 2. Number Guessing Game
+A simple Java game where:
+- The program generates a random number between 1 and 100
+- The user guesses the number
+- The program gives hints (Too High / Too Low)
+
+## Technologies Used
+- Java
+- IntelliJ IDEA
+
+## Author
+Prathamesh

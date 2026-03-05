@@ -1,8 +1,8 @@
 # Codveda Java Development Internship
 
-This repository contains the tasks completed during my Java Development Internship at Codveda.
+This repository contains the tasks completed during my **Java Development Internship at Codveda**.
 
-## Tasks Completed
+## Level 1 Projects
 
 ### 1. Basic Calculator
 A Java console application that performs basic arithmetic operations:
@@ -10,17 +10,53 @@ A Java console application that performs basic arithmetic operations:
 - Subtraction
 - Multiplication
 - Division
-- Handles division by zero errors
+- Handles division by zero
 
 ### 2. Number Guessing Game
-A simple Java game where:
-- The program generates a random number between 1 and 100
-- The user guesses the number
-- The program gives hints (Too High / Too Low)
+A simple game where the program generates a random number between **1 and 100** and the user keeps guessing until the correct number is found.
+
+Concepts used:
+- Loops
+- Conditional statements
+- Random number generation
+- User input with Scanner
+
+---
+
+## Level 2 Projects
+
+### 3. Student Management System
+A Java console program that allows:
+- Adding student records
+- Viewing stored students
+- Managing data using ArrayList
+
+Concepts used:
+- Classes and Objects
+- ArrayList
+- Menu driven programs
+- Loops and conditions
+
+### 4. Bank Account System
+A console-based banking application that allows:
+- Deposit money
+- Withdraw money
+- Check account balance
+
+Concepts used:
+- Classes
+- Methods
+- Encapsulation
+- Conditional logic
+
+---
 
 ## Technologies Used
 - Java
 - IntelliJ IDEA
+- GitHub
+
+---
 
 ## Author
 Prathamesh
